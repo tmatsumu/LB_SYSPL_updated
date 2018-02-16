@@ -1,0 +1,129 @@
+Sender: LSF System <lsfadmin@cb119>
+Subject: Job 22545814: <anafast -d /home/cmb/tmatsumu/LB_SYSPL/LB_SYSPL_v4.3/Simulator//RunJob/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/anafast_02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0_Sout.param> in cluster <centralcluster> Done
+
+Job <anafast -d /home/cmb/tmatsumu/LB_SYSPL/LB_SYSPL_v4.3/Simulator//RunJob/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/anafast_02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0_Sout.param> was submitted from host <cw06> by user <tmatsumu> in cluster <centralcluster>.
+Job was executed on host(s) <cb119>, in queue <s>, as user <tmatsumu> in cluster <centralcluster>.
+</home/cmb/tmatsumu> was used as the home directory.
+</home/cmb/tmatsumu/LB_SYSPL/LB_SYSPL_v4.3/Simulator/gen_run> was used as the working directory.
+Started at Thu Dec 15 17:45:23 2016
+Results reported on Thu Dec 15 17:45:24 2016
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+anafast -d /home/cmb/tmatsumu/LB_SYSPL/LB_SYSPL_v4.3/Simulator//RunJob/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/anafast_02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0_Sout.param
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   0.66 sec.
+    Max Memory :                                 63 MB
+    Average Memory :                             -
+    Total Requested Memory :                     4000.00 MB
+    Delta Memory :                               3937.00 MB
+    Max Swap :                                   -
+    Max Processes :                              -
+    Max Threads :                                -
+    Run time :                                   4 sec.
+    Turnaround time :                            2 sec.
+
+The output (if any) follows:
+
+  
+                 ANAFAST 3.31
+ *** Analysis and power spectrum calculation for a Temperature/Polarisation map ***
+                 Double precision outputs
+  
+Reading run parameters from /home/cmb/tmatsumu/LB_SYSPL/LB_SYSPL_v4.3/Simulator//RunJob/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/anafast_02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0_Sout.param
+ parameters not defined in that file will be set to their default value
+ Parser: simul_type =            1 
+ Parser: infile = /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/coadd_map/coadd_map1/mapS.fits
+ Parser: infile2 = '' <default>
+ Parser: nlmax =         1024 
+ Parser: maskfile = '' <default>
+ Parser: theta_cut_deg =    0.0000000000000000       <default>
+One keeps  100.0 % of the original map(s)
+ Parser: regression =            0  <default>
+ Parser: plmfile = '' <default>
+ Parser: outfile = /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/coadd_map/coadd_map1/ClSout_anafast.fits
+ Parser: outfile_alms = '' <default>
+ Parser: won =            0  <default>
+ Parser: iter_order =            0  <default>
+  Standard analysis
+  
+       ANAFAST> Inputting map 
+       ANAFAST> Analyse map 
+       ANAFAST> Compute power spectrum 
+       ANAFAST> outputting Power Spectrum 
+ 
+ Report Card for ANAFAST analysis run
+----------------------------------------
+ 
+      Temperature alone
+ 
+ Input map            : /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/coadd_map/coadd_map1/mapS.fits
+ Multipole range      :  0 <= l <=     1024
+ Number of pixels     :          3145728
+ Pixel size in arcmin :           6.8710    
+ Symmetric cut in deg :           0.0000    
+ Output power spectrum: /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/coadd_map/coadd_map1/ClSout_anafast.fits
+ Clock and CPU time [s] :        0.68       0.63
+ 
+ ANAFAST> normal completion
+Sender: LSF System <lsfadmin@cb119>
+Subject: Job 22545818: <anafast -d /home/cmb/tmatsumu/LB_SYSPL/LB_SYSPL_v4.3/Simulator//RunJob/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/anafast_02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0_Sout.param> in cluster <centralcluster> Exited
+
+Job <anafast -d /home/cmb/tmatsumu/LB_SYSPL/LB_SYSPL_v4.3/Simulator//RunJob/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/anafast_02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0_Sout.param> was submitted from host <cw06> by user <tmatsumu> in cluster <centralcluster>.
+Job was executed on host(s) <cb119>, in queue <s>, as user <tmatsumu> in cluster <centralcluster>.
+</home/cmb/tmatsumu> was used as the home directory.
+</home/cmb/tmatsumu/LB_SYSPL/LB_SYSPL_v4.3/Simulator/gen_run> was used as the working directory.
+Started at Thu Dec 15 17:45:25 2016
+Results reported on Thu Dec 15 17:45:26 2016
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+anafast -d /home/cmb/tmatsumu/LB_SYSPL/LB_SYSPL_v4.3/Simulator//RunJob/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/anafast_02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0_Sout.param
+------------------------------------------------------------
+
+Exited with exit code 1.
+
+Resource usage summary:
+
+    CPU time :                                   0.04 sec.
+    Max Memory :                                 15 MB
+    Average Memory :                             12.00 MB
+    Total Requested Memory :                     4000.00 MB
+    Delta Memory :                               3985.00 MB
+    Max Swap :                                   -
+    Max Processes :                              3
+    Max Threads :                                4
+    Run time :                                   0 sec.
+    Turnaround time :                            2 sec.
+
+The output (if any) follows:
+
+  
+                 ANAFAST 3.31
+ *** Analysis and power spectrum calculation for a Temperature/Polarisation map ***
+                 Double precision outputs
+  
+Reading run parameters from /home/cmb/tmatsumu/LB_SYSPL/LB_SYSPL_v4.3/Simulator//RunJob/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/anafast_02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0_Sout.param
+ parameters not defined in that file will be set to their default value
+ Parser: simul_type =            1 
+ Parser: infile = /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/coadd_map/coadd_map1/mapS.fits
+ Parser: infile2 = '' <default>
+ Parser: nlmax =         1024 
+ Parser: maskfile = '' <default>
+ Parser: theta_cut_deg =    0.0000000000000000       <default>
+One keeps  100.0 % of the original map(s)
+ Parser: regression =            0  <default>
+ Parser: plmfile = '' <default>
+ Parser: outfile = /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/coadd_map/coadd_map1/ClSout_anafast.fits
+ Parser: error: output file /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/coadd_map/coadd_map1/ClSout_anafast.fits already exists!
+ Fatal error
+ program exits with exit code            1

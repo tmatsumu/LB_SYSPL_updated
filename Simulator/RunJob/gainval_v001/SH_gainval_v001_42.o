@@ -1,0 +1,3749 @@
+Sender: LSF System <lsfadmin@cb547>
+Subject: Job 8631167: </home/cmb/tmatsumu/LB_SYSPL/LB_SYSPL_v4.3/Simulator//RunJob/gainval_v001/SH_gainval_v001_42.sh> in cluster <centralcluster> Done
+
+Job </home/cmb/tmatsumu/LB_SYSPL/LB_SYSPL_v4.3/Simulator//RunJob/gainval_v001/SH_gainval_v001_42.sh> was submitted from host <cw04> by user <tmatsumu> in cluster <centralcluster>.
+Job was executed on host(s) <cb547>, in queue <s>, as user <tmatsumu> in cluster <centralcluster>.
+</home/cmb/tmatsumu> was used as the home directory.
+</home/cmb/tmatsumu/LB_SYSPL/LB_SYSPL_v4.3/Simulator/gen_run> was used as the working directory.
+Started at Tue Sep 20 19:06:02 2016
+Results reported on Tue Sep 20 19:19:25 2016
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+/home/cmb/tmatsumu/LB_SYSPL/LB_SYSPL_v4.3/Simulator//RunJob/gainval_v001/SH_gainval_v001_42.sh
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   779.10 sec.
+    Max Memory :                                 581 MB
+    Average Memory :                             477.25 MB
+    Total Requested Memory :                     4000.00 MB
+    Delta Memory :                               3419.00 MB
+    Max Swap :                                   -
+    Max Processes :                              4
+    Max Threads :                                5
+    Run time :                                   802 sec.
+    Turnaround time :                            968 sec.
+
+The output (if any) follows:
+
+option_silent Y
+
+sim
+[maps_init] npix 786432
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 361.569429874
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 361.745774031
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 365.597183943
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 365.820352077
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 369.842787027
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 370.069037914
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 373.724364996
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 373.895020962
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 377.247809887
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 377.412814856
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 381.54204607
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 381.706254005
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 385.870126009
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 386.038450003
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 390.678819895
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 390.84561801
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 394.558815002
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 394.724052906
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 399.473753929
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 399.63774085
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 403.246837854
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 403.410855055
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 407.48635602
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 407.648374081
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 410.840821028
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 411.020488024
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 414.850112915
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 415.06241107
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 418.39312005
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 418.594826937
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 422.202241898
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 422.396815062
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 427.184149981
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 427.362159014
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 431.507200956
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 431.677006006
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 435.195510864
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 435.400202036
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 438.907666922
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 439.100512981
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 443.601575851
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 443.765794039
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 447.222164869
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 447.393277884
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 451.33877492
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 451.506185055
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 456.122684002
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 456.298480034
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 460.502969027
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 460.662338018
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 464.922954082
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 465.088443041
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 468.783565998
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 468.958993912
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 473.879226923
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 474.091841936
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 478.04639101
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 478.220607996
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 482.658179045
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 482.827893972
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 486.094167948
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 486.304816961
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 491.118825912
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 491.369912863
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 496.650250912
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 496.858541012
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 502.311367989
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 502.515780926
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 508.089367867
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 508.276694059
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 513.725625992
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 513.898947954
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 519.585191965
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 519.745723009
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 523.106886864
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 523.286370993
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 526.769495964
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 526.965762854
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 530.635396004
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 530.802514076
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 534.643311977
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 534.816161871
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 538.231852055
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 538.402113914
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 541.869512081
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 542.040668011
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 545.865952969
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 546.031678915
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 549.484143019
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 549.707422972
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 553.466556072
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 553.793753862
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 557.658484936
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 557.829379082
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 561.668446064
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 561.834696054
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 565.241762877
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 565.412674904
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 569.098272085
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 569.26060605
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 573.154949903
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 573.316182852
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 577.217872858
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 577.380023956
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 580.819386959
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 581.040106058
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 584.847008944
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 585.094780922
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 589.073004007
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 589.271355867
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 593.28293395
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 593.447515011
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 596.949866056
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 597.117042065
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 600.530076981
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 600.697057009
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 604.039582968
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 604.204501867
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 607.890295029
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 608.058145046
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 611.66733098
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 611.847461939
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 615.208597898
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 615.379297972
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 619.658807039
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 619.868984938
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 623.996455908
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 624.167346954
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 627.516960859
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 627.688673973
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 631.391697884
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 631.55230999
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 634.890369892
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 635.051174879
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 638.467607975
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 638.629709005
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 642.126688004
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 642.31831193
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 645.807601929
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 646.118763924
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 650.63071394
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 650.919236898
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 656.376623869
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 656.594424963
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 661.421710014
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 661.584125996
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 665.274770021
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 665.440397978
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 670.421639919
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 670.588567019
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 674.687197924
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 674.877989054
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 680.054102898
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 680.221055984
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 683.840267897
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 684.001306057
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 687.569643021
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 687.732636929
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 692.451601028
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 692.622513056
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 696.725903988
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 696.892775059
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 702.284535885
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 702.449372053
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 706.587384939
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 706.753475904
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 711.815747023
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 711.977025986
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 715.889229059
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 716.048511028
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 720.426034927
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 720.5856359
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 723.94916296
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 724.125942945
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 728.749903917
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 728.910795927
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 732.516646862
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 732.678242922
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 736.059923887
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 736.241880894
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 741.086874008
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 741.260143995
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 744.830451012
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 744.998020887
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 749.602792025
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 749.789632082
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 754.371923923
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 754.563792944
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 760.509652853
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 760.789592981
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 764.986015081
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 765.146555901
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 769.002804041
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 769.167083025
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 773.997220039
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 774.158909082
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 778.491632938
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 778.65308404
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 783.751419067
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 783.918758869
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 788.273138046
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 788.436990023
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 793.040338993
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 793.200630903
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 796.621162891
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 796.782877922
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 801.183311939
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 801.345973015
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 804.818640947
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 804.978919983
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 810.000781059
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 810.17856288
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 813.607192993
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 813.869682074
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 817.826145887
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 817.990315914
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 822.425845861
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 822.588538885
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 825.976297855
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 826.139045
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 830.513962984
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 830.678454876
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 834.187335014
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 834.35016799
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 837.887778997
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 838.050374985
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 841.530751944
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 841.699146986
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 845.375623941
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 845.551028967
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 849.043704987
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 849.214703083
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 853.293879032
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 853.466884851
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 857.867436886
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 858.053542852
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 863.202280045
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 863.450789928
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 868.871404886
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 869.076138973
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 874.762008905
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 874.942322969
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 880.340889931
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 880.532226086
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 885.33622694
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 885.61799407
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 889.56505394
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 889.832769871
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 894.968391895
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 895.196295977
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 900.190772057
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 900.442286015
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 905.408576012
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 905.601412058
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 909.086974859
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 909.257230043
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 912.758836031
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 912.928966999
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 916.351157904
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 916.521018982
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 919.962986946
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 920.135679007
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 923.860817909
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 924.057529926
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 928.118803024
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 928.297266006
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 932.343101978
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 932.515017986
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 937.046278954
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 937.213273048
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 941.291589975
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 941.46707201
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 945.391061068
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 945.572259903
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 949.886585951
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 950.089349031
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 953.612840891
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 953.781137943
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 957.15001297
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 957.394761086
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 961.230690956
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 961.458003998
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 965.380812883
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 965.573822975
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 969.451225042
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 969.629852057
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 973.467509985
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 973.648138046
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 978.037262917
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 978.209963083
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 982.643497944
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 982.834616899
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 987.144294024
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 987.312636852
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 991.407685041
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 991.574498892
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 995.842808962
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 996.012037992
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 999.796228886
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 999.980505943
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 1003.92160296
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 1004.12454605
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 1008.07217002
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 1008.26479006
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 1012.44538403
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 1012.64832687
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 1016.64624596
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 1016.82808685
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 1020.67020392
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 1020.85222697
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 1025.35277295
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 1025.56506586
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 1031.08195305
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 1031.27185702
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 1035.71901703
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 1035.95336699
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 1040.04744291
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 1040.2795639
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 1046.18191504
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 1046.50180197
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 1051.36750293
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 1051.57431006
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 1056.526613
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 1056.7635529
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 1061.35132289
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 1061.60251689
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 1066.17963386
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 1066.3729229
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 1070.51165605
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 1070.70576501
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 1074.62343597
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 1074.80962491
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 1078.80312395
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 1079.02182889
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 1084.10701704
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 1084.35884404
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 1088.66201091
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 1088.88545108
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 1093.03140688
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 1093.22512293
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 1097.38324189
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 1097.54969096
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 1100.95992994
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 1101.13044
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 1104.31382489
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 1104.49115491
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 1108.00655389
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 1108.17222786
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 1111.63124895
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 1111.79937601
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 1115.11810708
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 1115.2861979
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 1118.55946398
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 1118.72968888
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 1122.33290005
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 1122.51164293
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 1126.09047508
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 1126.25135994
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 1129.51659489
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 1129.67883492
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 1132.98358393
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 1133.16411805
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 1136.54872203
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 1136.74127102
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 1140.36348891
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 1140.55290389
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 1144.19073296
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 1144.36567092
+________________________________________
+
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 1147.80531788
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 1147.97496486
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] END for a scanset...
+     module name: lib_mapmaker
+  parent process: 19083
+      process id: 19092
+        run time: 1149.7858429
+________________________________________
+
+[lib_mapmaker.py] END of main_mapmaker()
+====================================================================================

@@ -1,0 +1,75 @@
+Sender: LSF System <lsfadmin@cb127>
+Subject: Job 8636613: <anafast -d /home/cmb/tmatsumu/LB_SYSPL/LB_SYSPL_v4.3/Simulator//RunJob/gainval_v001/anafast_gainval_v001_Sout.param> in cluster <centralcluster> Done
+
+Job <anafast -d /home/cmb/tmatsumu/LB_SYSPL/LB_SYSPL_v4.3/Simulator//RunJob/gainval_v001/anafast_gainval_v001_Sout.param> was submitted from host <cw14> by user <tmatsumu> in cluster <centralcluster>.
+Job was executed on host(s) <cb127>, in queue <s>, as user <tmatsumu> in cluster <centralcluster>.
+</home/cmb/tmatsumu> was used as the home directory.
+</home/cmb/tmatsumu/LB_SYSPL/LB_SYSPL_v4.3/Simulator/gen_run> was used as the working directory.
+Started at Tue Sep 20 20:42:20 2016
+Results reported on Tue Sep 20 20:42:21 2016
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+anafast -d /home/cmb/tmatsumu/LB_SYSPL/LB_SYSPL_v4.3/Simulator//RunJob/gainval_v001/anafast_gainval_v001_Sout.param
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   0.15 sec.
+    Max Memory :                                 22 MB
+    Average Memory :                             22.00 MB
+    Total Requested Memory :                     4000.00 MB
+    Delta Memory :                               3978.00 MB
+    Max Swap :                                   -
+    Max Processes :                              3
+    Max Threads :                                4
+    Run time :                                   2 sec.
+    Turnaround time :                            3 sec.
+
+The output (if any) follows:
+
+  
+                 ANAFAST 3.31
+ *** Analysis and power spectrum calculation for a Temperature/Polarisation map ***
+                 Double precision outputs
+  
+Reading run parameters from /home/cmb/tmatsumu/LB_SYSPL/LB_SYSPL_v4.3/Simulator//RunJob/gainval_v001/anafast_gainval_v001_Sout.param
+ parameters not defined in that file will be set to their default value
+ Parser: simul_type =            1 
+ Parser: infile = /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/gainval_v001/coadd_map/coadd_map1/mapS.fits
+ Parser: infile2 = '' <default>
+ Parser: nlmax =          512 
+ Parser: maskfile = '' <default>
+ Parser: theta_cut_deg =    0.0000000000000000       <default>
+One keeps  100.0 % of the original map(s)
+ Parser: regression =            0  <default>
+ Parser: plmfile = '' <default>
+ Parser: outfile = /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/gainval_v001/coadd_map/coadd_map1/ClSout_anafast.fits
+ Parser: outfile_alms = '' <default>
+ Parser: won =            0  <default>
+ Parser: iter_order =            0  <default>
+  Standard analysis
+  
+       ANAFAST> Inputting map 
+       ANAFAST> Analyse map 
+       ANAFAST> Compute power spectrum 
+       ANAFAST> outputting Power Spectrum 
+ 
+ Report Card for ANAFAST analysis run
+----------------------------------------
+ 
+      Temperature alone
+ 
+ Input map            : /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/gainval_v001/coadd_map/coadd_map1/mapS.fits
+ Multipole range      :  0 <= l <=      512
+ Number of pixels     :           786432
+ Pixel size in arcmin :           13.742    
+ Symmetric cut in deg :           0.0000    
+ Output power spectrum: /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/gainval_v001/coadd_map/coadd_map1/ClSout_anafast.fits
+ Clock and CPU time [s] :        0.25       0.12
+ 
+ ANAFAST> normal completion

@@ -1,0 +1,3 @@
+#!/bin/bash
+bsub -q s -o /home/cmb/tmatsumu/LB_SYSPL/LB_SYSPL_v4.3/Simulator//RunJob/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/SH_02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0_coadd_map1.o /home/cmb/tmatsumu/LB_SYSPL/LB_SYSPL_v4.3/Simulator//RunJob/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/SH_02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0_coadd_map1.sh
+wait

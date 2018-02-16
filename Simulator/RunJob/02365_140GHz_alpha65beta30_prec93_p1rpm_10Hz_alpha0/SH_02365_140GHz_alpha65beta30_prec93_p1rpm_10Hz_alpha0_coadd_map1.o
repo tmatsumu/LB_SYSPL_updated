@@ -1,0 +1,809 @@
+Sender: LSF System <lsfadmin@cb520>
+Subject: Job 22540781: </home/cmb/tmatsumu/LB_SYSPL/LB_SYSPL_v4.3/Simulator//RunJob/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/SH_02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0_coadd_map1.sh> in cluster <centralcluster> Done
+
+Job </home/cmb/tmatsumu/LB_SYSPL/LB_SYSPL_v4.3/Simulator//RunJob/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/SH_02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0_coadd_map1.sh> was submitted from host <cw08> by user <tmatsumu> in cluster <centralcluster>.
+Job was executed on host(s) <cb520>, in queue <s>, as user <tmatsumu> in cluster <centralcluster>.
+</home/cmb/tmatsumu> was used as the home directory.
+</home/cmb/tmatsumu/LB_SYSPL/LB_SYSPL_v4.3/Simulator/gen_run> was used as the working directory.
+Started at Thu Dec 15 17:20:58 2016
+Results reported on Thu Dec 15 17:25:03 2016
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+/home/cmb/tmatsumu/LB_SYSPL/LB_SYSPL_v4.3/Simulator//RunJob/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/SH_02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0_coadd_map1.sh
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   184.40 sec.
+    Max Memory :                                 794 MB
+    Average Memory :                             491.58 MB
+    Total Requested Memory :                     4000.00 MB
+    Delta Memory :                               3206.00 MB
+    Max Swap :                                   -
+    Max Processes :                              4
+    Max Threads :                                5
+    Run time :                                   244 sec.
+    Turnaround time :                            245 sec.
+
+The output (if any) follows:
+
+[Get_Mapmake_Inputs in ReadMapXml.py] /home/cmb/tmatsumu/LB_SYSPL/LB_SYSPL_v4.3/Simulator//xml/xml_par_02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0.xml
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3/DB/sim_nonoise.txt
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/coadd_map/coadd_map1
+[read_DBmapfilelist] select * from LBSimPtg where id < 366
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++ START: main_mapcombiner.py +++++++++++++++++++++++++++++++++++++++
+6.19888305664e-06
+False
+365
+[MAIN_MAPCOMBINER]:  0 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day264/ 0 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day264//map_all.npz
+[MAIN_MAPCOMBINER]:  1 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day87/ 1 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day87//map_all.npz
+[MAIN_MAPCOMBINER]:  2 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day219/ 2 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day219//map_all.npz
+[MAIN_MAPCOMBINER]:  3 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day85/ 3 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day85//map_all.npz
+[MAIN_MAPCOMBINER]:  4 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day267/ 4 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day267//map_all.npz
+[MAIN_MAPCOMBINER]:  5 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day253/ 5 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day253//map_all.npz
+[MAIN_MAPCOMBINER]:  6 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day83/ 6 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day83//map_all.npz
+[MAIN_MAPCOMBINER]:  7 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day345/ 7 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day345//map_all.npz
+[MAIN_MAPCOMBINER]:  8 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day33/ 8 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day33//map_all.npz
+[MAIN_MAPCOMBINER]:  9 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day127/ 9 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day127//map_all.npz
+[MAIN_MAPCOMBINER]:  10 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day322/ 10 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day322//map_all.npz
+[MAIN_MAPCOMBINER]:  11 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day112/ 11 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day112//map_all.npz
+[MAIN_MAPCOMBINER]:  12 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day256/ 12 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day256//map_all.npz
+[MAIN_MAPCOMBINER]:  13 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day193/ 13 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day193//map_all.npz
+[MAIN_MAPCOMBINER]:  14 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day157/ 14 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day157//map_all.npz
+[MAIN_MAPCOMBINER]:  15 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day142/ 15 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day142//map_all.npz
+[MAIN_MAPCOMBINER]:  16 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day106/ 16 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day106//map_all.npz
+[MAIN_MAPCOMBINER]:  17 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day187/ 17 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day187//map_all.npz
+[MAIN_MAPCOMBINER]:  18 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day259/ 18 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day259//map_all.npz
+[MAIN_MAPCOMBINER]:  19 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day172/ 19 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day172//map_all.npz
+[MAIN_MAPCOMBINER]:  20 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day293/ 20 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day293//map_all.npz
+[MAIN_MAPCOMBINER]:  21 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day296/ 21 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day296//map_all.npz
+[MAIN_MAPCOMBINER]:  22 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day319/ 22 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day319//map_all.npz
+[MAIN_MAPCOMBINER]:  23 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day354/ 23 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day354//map_all.npz
+[MAIN_MAPCOMBINER]:  24 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day331/ 24 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day331//map_all.npz
+[MAIN_MAPCOMBINER]:  25 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day20/ 25 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day20//map_all.npz
+[MAIN_MAPCOMBINER]:  26 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day66/ 26 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day66//map_all.npz
+[MAIN_MAPCOMBINER]:  27 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day299/ 27 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day299//map_all.npz
+[MAIN_MAPCOMBINER]:  28 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day222/ 28 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day222//map_all.npz
+[MAIN_MAPCOMBINER]:  29 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day150/ 29 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day150//map_all.npz
+[MAIN_MAPCOMBINER]:  30 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day129/ 30 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day129//map_all.npz
+[MAIN_MAPCOMBINER]:  31 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day24/ 31 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day24//map_all.npz
+[MAIN_MAPCOMBINER]:  32 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day12/ 32 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day12//map_all.npz
+[MAIN_MAPCOMBINER]:  33 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day114/ 33 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day114//map_all.npz
+[MAIN_MAPCOMBINER]:  34 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day328/ 34 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day328//map_all.npz
+[MAIN_MAPCOMBINER]:  35 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day363/ 35 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day363//map_all.npz
+[MAIN_MAPCOMBINER]:  36 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day195/ 36 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day195//map_all.npz
+[MAIN_MAPCOMBINER]:  37 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day305/ 37 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day305//map_all.npz
+[MAIN_MAPCOMBINER]:  38 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day340/ 38 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day340//map_all.npz
+[MAIN_MAPCOMBINER]:  39 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day180/ 39 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day180//map_all.npz
+[MAIN_MAPCOMBINER]:  40 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day159/ 40 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day159//map_all.npz
+[MAIN_MAPCOMBINER]:  41 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day15/ 41 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day15//map_all.npz
+[MAIN_MAPCOMBINER]:  42 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day144/ 42 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day144//map_all.npz
+[MAIN_MAPCOMBINER]:  43 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day211/ 43 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day211//map_all.npz
+[MAIN_MAPCOMBINER]:  44 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day189/ 44 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day189//map_all.npz
+[MAIN_MAPCOMBINER]:  45 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day214/ 45 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day214//map_all.npz
+[MAIN_MAPCOMBINER]:  46 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day262/ 46 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day262//map_all.npz
+[MAIN_MAPCOMBINER]:  47 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day99/ 47 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day99//map_all.npz
+[MAIN_MAPCOMBINER]:  48 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day42/ 48 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day42//map_all.npz
+[MAIN_MAPCOMBINER]:  49 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day28/ 49 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day28//map_all.npz
+[MAIN_MAPCOMBINER]:  50 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day217/ 50 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day217//map_all.npz
+[MAIN_MAPCOMBINER]:  51 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day251/ 51 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day251//map_all.npz
+[MAIN_MAPCOMBINER]:  52 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day38/ 52 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day38//map_all.npz
+[MAIN_MAPCOMBINER]:  53 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day337/ 53 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day337//map_all.npz
+[MAIN_MAPCOMBINER]:  54 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day314/ 54 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day314//map_all.npz
+[MAIN_MAPCOMBINER]:  55 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day206/ 55 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day206//map_all.npz
+[MAIN_MAPCOMBINER]:  56 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day254/ 56 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day254//map_all.npz
+[MAIN_MAPCOMBINER]:  57 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day0/ 57 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day0//map_all.npz
+[MAIN_MAPCOMBINER]:  58 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day48/ 58 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day48//map_all.npz
+[MAIN_MAPCOMBINER]:  59 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day72/ 59 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day72//map_all.npz
+[MAIN_MAPCOMBINER]:  60 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day122/ 60 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day122//map_all.npz
+[MAIN_MAPCOMBINER]:  61 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day209/ 61 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day209//map_all.npz
+[MAIN_MAPCOMBINER]:  62 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day257/ 62 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day257//map_all.npz
+[MAIN_MAPCOMBINER]:  63 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day58/ 63 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day58//map_all.npz
+[MAIN_MAPCOMBINER]:  64 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day167/ 64 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day167//map_all.npz
+[MAIN_MAPCOMBINER]:  65 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day152/ 65 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day152//map_all.npz
+[MAIN_MAPCOMBINER]:  66 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day291/ 66 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day291//map_all.npz
+[MAIN_MAPCOMBINER]:  67 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day116/ 67 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day116//map_all.npz
+[MAIN_MAPCOMBINER]:  68 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day75/ 68 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day75//map_all.npz
+[MAIN_MAPCOMBINER]:  69 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day101/ 69 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day101//map_all.npz
+[MAIN_MAPCOMBINER]:  70 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day197/ 70 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day197//map_all.npz
+[MAIN_MAPCOMBINER]:  71 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day68/ 71 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day68//map_all.npz
+[MAIN_MAPCOMBINER]:  72 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day182/ 72 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day182//map_all.npz
+[MAIN_MAPCOMBINER]:  73 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day246/ 73 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day246//map_all.npz
+[MAIN_MAPCOMBINER]:  74 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day346/ 74 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day346//map_all.npz
+[MAIN_MAPCOMBINER]:  75 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day294/ 75 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day294//map_all.npz
+[MAIN_MAPCOMBINER]:  76 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day323/ 76 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day323//map_all.npz
+[MAIN_MAPCOMBINER]:  77 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day59/ 77 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day59//map_all.npz
+[MAIN_MAPCOMBINER]:  78 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day300/ 78 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day300//map_all.npz
+[MAIN_MAPCOMBINER]:  79 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day78/ 79 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day78//map_all.npz
+[MAIN_MAPCOMBINER]:  80 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day249/ 80 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day249//map_all.npz
+[MAIN_MAPCOMBINER]:  81 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day297/ 81 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day297//map_all.npz
+[MAIN_MAPCOMBINER]:  82 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day88/ 82 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day88//map_all.npz
+[MAIN_MAPCOMBINER]:  83 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day86/ 83 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day86//map_all.npz
+[MAIN_MAPCOMBINER]:  84 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day98/ 84 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day98//map_all.npz
+[MAIN_MAPCOMBINER]:  85 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day339/ 85 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day339//map_all.npz
+[MAIN_MAPCOMBINER]:  86 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day34/ 86 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day34//map_all.npz
+[MAIN_MAPCOMBINER]:  87 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day289/ 87 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day289//map_all.npz
+[MAIN_MAPCOMBINER]:  88 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day332/ 88 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day332//map_all.npz
+[MAIN_MAPCOMBINER]:  89 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day63/ 89 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day63//map_all.npz
+[MAIN_MAPCOMBINER]:  90 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day70/ 90 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day70//map_all.npz
+[MAIN_MAPCOMBINER]:  91 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day139/ 91 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day139//map_all.npz
+[MAIN_MAPCOMBINER]:  92 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day13/ 92 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day13//map_all.npz
+[MAIN_MAPCOMBINER]:  93 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day124/ 93 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day124//map_all.npz
+[MAIN_MAPCOMBINER]:  94 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day190/ 94 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day190//map_all.npz
+[MAIN_MAPCOMBINER]:  95 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day47/ 95 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day47//map_all.npz
+[MAIN_MAPCOMBINER]:  96 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day169/ 96 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day169//map_all.npz
+[MAIN_MAPCOMBINER]:  97 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day16/ 97 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day16//map_all.npz
+[MAIN_MAPCOMBINER]:  98 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day154/ 98 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day154//map_all.npz
+[MAIN_MAPCOMBINER]:  99 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day212/ 99 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day212//map_all.npz
+[MAIN_MAPCOMBINER]:  100 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day118/ 100 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day118//map_all.npz
+[MAIN_MAPCOMBINER]:  101 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day199/ 101 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day199//map_all.npz
+[MAIN_MAPCOMBINER]:  102 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day19/ 102 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day19//map_all.npz
+[MAIN_MAPCOMBINER]:  103 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day184/ 103 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day184//map_all.npz
+[MAIN_MAPCOMBINER]:  104 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day348/ 104 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day348//map_all.npz
+[MAIN_MAPCOMBINER]:  105 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day215/ 105 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day215//map_all.npz
+[MAIN_MAPCOMBINER]:  106 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day201/ 106 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day201//map_all.npz
+[MAIN_MAPCOMBINER]:  107 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day306/ 107 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day306//map_all.npz
+[MAIN_MAPCOMBINER]:  108 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day341/ 108 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day341//map_all.npz
+[MAIN_MAPCOMBINER]:  109 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day204/ 109 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day204//map_all.npz
+[MAIN_MAPCOMBINER]:  110 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day252/ 110 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day252//map_all.npz
+[MAIN_MAPCOMBINER]:  111 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day207/ 111 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day207//map_all.npz
+[MAIN_MAPCOMBINER]:  112 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day255/ 112 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day255//map_all.npz
+[MAIN_MAPCOMBINER]:  113 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day241/ 113 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day241//map_all.npz
+[MAIN_MAPCOMBINER]:  114 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day357/ 114 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day357//map_all.npz
+[MAIN_MAPCOMBINER]:  115 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day162/ 115 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day162//map_all.npz
+[MAIN_MAPCOMBINER]:  116 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day244/ 116 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day244//map_all.npz
+[MAIN_MAPCOMBINER]:  117 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day292/ 117 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day292//map_all.npz
+[MAIN_MAPCOMBINER]:  118 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day30/ 118 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day30//map_all.npz
+[MAIN_MAPCOMBINER]:  119 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day97/ 119 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day97//map_all.npz
+[MAIN_MAPCOMBINER]:  120 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day126/ 120 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day126//map_all.npz
+[MAIN_MAPCOMBINER]:  121 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day111/ 121 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day111//map_all.npz
+[MAIN_MAPCOMBINER]:  122 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day192/ 122 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day192//map_all.npz
+[MAIN_MAPCOMBINER]:  123 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day156/ 123 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day156//map_all.npz
+[MAIN_MAPCOMBINER]:  124 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day247/ 124 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day247//map_all.npz
+[MAIN_MAPCOMBINER]:  125 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day141/ 125 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day141//map_all.npz
+[MAIN_MAPCOMBINER]:  126 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day295/ 126 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day295//map_all.npz
+[MAIN_MAPCOMBINER]:  127 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day281/ 127 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day281//map_all.npz
+[MAIN_MAPCOMBINER]:  128 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day298/ 128 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day298//map_all.npz
+[MAIN_MAPCOMBINER]:  129 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day284/ 129 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day284//map_all.npz
+[MAIN_MAPCOMBINER]:  130 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day65/ 130 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day65//map_all.npz
+[MAIN_MAPCOMBINER]:  131 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day308/ 131 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day308//map_all.npz
+[MAIN_MAPCOMBINER]:  132 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day343/ 132 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day343//map_all.npz
+[MAIN_MAPCOMBINER]:  133 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day287/ 133 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day287//map_all.npz
+[MAIN_MAPCOMBINER]:  134 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day301/ 134 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day301//map_all.npz
+[MAIN_MAPCOMBINER]:  135 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day44/ 135 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day44//map_all.npz
+[MAIN_MAPCOMBINER]:  136 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day210/ 136 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day210//map_all.npz
+[MAIN_MAPCOMBINER]:  137 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day134/ 137 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day134//map_all.npz
+[MAIN_MAPCOMBINER]:  138 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day179/ 138 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day179//map_all.npz
+[MAIN_MAPCOMBINER]:  139 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day17/ 139 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day17//map_all.npz
+[MAIN_MAPCOMBINER]:  140 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day164/ 140 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day164//map_all.npz
+[MAIN_MAPCOMBINER]:  141 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day36/ 141 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day36//map_all.npz
+[MAIN_MAPCOMBINER]:  142 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day128/ 142 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day128//map_all.npz
+[MAIN_MAPCOMBINER]:  143 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day317/ 143 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day317//map_all.npz
+[MAIN_MAPCOMBINER]:  144 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day352/ 144 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day352//map_all.npz
+[MAIN_MAPCOMBINER]:  145 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day113/ 145 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day113//map_all.npz
+[MAIN_MAPCOMBINER]:  146 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day194/ 146 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day194//map_all.npz
+[MAIN_MAPCOMBINER]:  147 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day202/ 147 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day202//map_all.npz
+[MAIN_MAPCOMBINER]:  148 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day89/ 148 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day89//map_all.npz
+[MAIN_MAPCOMBINER]:  149 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day250/ 149 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day250//map_all.npz
+[MAIN_MAPCOMBINER]:  150 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day205/ 150 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day205//map_all.npz
+[MAIN_MAPCOMBINER]:  151 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day349/ 151 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day349//map_all.npz
+[MAIN_MAPCOMBINER]:  152 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day326/ 152 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day326//map_all.npz
+[MAIN_MAPCOMBINER]:  153 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day361/ 153 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day361//map_all.npz
+[MAIN_MAPCOMBINER]:  154 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day208/ 154 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day208//map_all.npz
+[MAIN_MAPCOMBINER]:  155 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day303/ 155 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day303//map_all.npz
+[MAIN_MAPCOMBINER]:  156 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day242/ 156 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day242//map_all.npz
+[MAIN_MAPCOMBINER]:  157 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day290/ 157 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day290//map_all.npz
+[MAIN_MAPCOMBINER]:  158 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day93/ 158 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day93//map_all.npz
+[MAIN_MAPCOMBINER]:  159 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day43/ 159 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day43//map_all.npz
+[MAIN_MAPCOMBINER]:  160 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day245/ 160 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day245//map_all.npz
+[MAIN_MAPCOMBINER]:  161 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day136/ 161 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day136//map_all.npz
+[MAIN_MAPCOMBINER]:  162 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day121/ 162 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day121//map_all.npz
+[MAIN_MAPCOMBINER]:  163 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day166/ 163 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day166//map_all.npz
+[MAIN_MAPCOMBINER]:  164 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day151/ 164 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day151//map_all.npz
+[MAIN_MAPCOMBINER]:  165 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day248/ 165 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day248//map_all.npz
+[MAIN_MAPCOMBINER]:  166 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day282/ 166 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day282//map_all.npz
+[MAIN_MAPCOMBINER]:  167 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day358/ 167 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day358//map_all.npz
+[MAIN_MAPCOMBINER]:  168 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day196/ 168 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day196//map_all.npz
+[MAIN_MAPCOMBINER]:  169 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day9/ 169 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day9//map_all.npz
+[MAIN_MAPCOMBINER]:  170 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day335/ 170 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day335//map_all.npz
+[MAIN_MAPCOMBINER]:  171 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day49/ 171 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day49//map_all.npz
+[MAIN_MAPCOMBINER]:  172 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day32/ 172 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day32//map_all.npz
+[MAIN_MAPCOMBINER]:  173 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day312/ 173 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day312//map_all.npz
+[MAIN_MAPCOMBINER]:  174 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day80/ 174 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day80//map_all.npz
+[MAIN_MAPCOMBINER]:  175 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day237/ 175 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day237//map_all.npz
+[MAIN_MAPCOMBINER]:  176 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day285/ 176 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day285//map_all.npz
+[MAIN_MAPCOMBINER]:  177 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day54/ 177 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day54//map_all.npz
+[MAIN_MAPCOMBINER]:  178 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day288/ 178 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day288//map_all.npz
+[MAIN_MAPCOMBINER]:  179 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day62/ 179 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day62//map_all.npz
+[MAIN_MAPCOMBINER]:  180 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day55/ 180 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day55//map_all.npz
+[MAIN_MAPCOMBINER]:  181 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day277/ 181 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day277//map_all.npz
+[MAIN_MAPCOMBINER]:  182 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day309/ 182 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day309//map_all.npz
+[MAIN_MAPCOMBINER]:  183 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day344/ 183 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day344//map_all.npz
+[MAIN_MAPCOMBINER]:  184 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day321/ 184 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day321//map_all.npz
+[MAIN_MAPCOMBINER]:  185 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day108/ 185 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day108//map_all.npz
+[MAIN_MAPCOMBINER]:  186 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day18/ 186 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day18//map_all.npz
+[MAIN_MAPCOMBINER]:  187 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day174/ 187 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day174//map_all.npz
+[MAIN_MAPCOMBINER]:  188 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day138/ 188 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day138//map_all.npz
+[MAIN_MAPCOMBINER]:  189 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day123/ 189 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day123//map_all.npz
+[MAIN_MAPCOMBINER]:  190 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day56/ 190 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day56//map_all.npz
+[MAIN_MAPCOMBINER]:  191 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day200/ 191 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day200//map_all.npz
+[MAIN_MAPCOMBINER]:  192 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day92/ 192 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day92//map_all.npz
+[MAIN_MAPCOMBINER]:  193 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day168/ 193 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day168//map_all.npz
+[MAIN_MAPCOMBINER]:  194 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day153/ 194 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day153//map_all.npz
+[MAIN_MAPCOMBINER]:  195 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day203/ 195 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day203//map_all.npz
+[MAIN_MAPCOMBINER]:  196 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day57/ 196 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day57//map_all.npz
+[MAIN_MAPCOMBINER]:  197 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day318/ 197 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day318//map_all.npz
+[MAIN_MAPCOMBINER]:  198 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day353/ 198 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day353//map_all.npz
+[MAIN_MAPCOMBINER]:  199 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day330/ 199 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day330//map_all.npz
+[MAIN_MAPCOMBINER]:  200 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day40/ 200 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day40//map_all.npz
+[MAIN_MAPCOMBINER]:  201 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day240/ 201 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day240//map_all.npz
+[MAIN_MAPCOMBINER]:  202 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day243/ 202 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day243//map_all.npz
+[MAIN_MAPCOMBINER]:  203 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day146/ 203 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day146//map_all.npz
+[MAIN_MAPCOMBINER]:  204 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day131/ 204 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day131//map_all.npz
+[MAIN_MAPCOMBINER]:  205 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day232/ 205 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day232//map_all.npz
+[MAIN_MAPCOMBINER]:  206 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day280/ 206 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day280//map_all.npz
+[MAIN_MAPCOMBINER]:  207 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day304/ 207 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day304//map_all.npz
+[MAIN_MAPCOMBINER]:  208 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day176/ 208 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day176//map_all.npz
+[MAIN_MAPCOMBINER]:  209 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day161/ 209 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day161//map_all.npz
+[MAIN_MAPCOMBINER]:  210 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day125/ 210 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day125//map_all.npz
+[MAIN_MAPCOMBINER]:  211 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day235/ 211 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day235//map_all.npz
+[MAIN_MAPCOMBINER]:  212 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day283/ 212 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day283//map_all.npz
+[MAIN_MAPCOMBINER]:  213 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day191/ 213 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day191//map_all.npz
+[MAIN_MAPCOMBINER]:  214 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day64/ 214 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day64//map_all.npz
+[MAIN_MAPCOMBINER]:  215 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day238/ 215 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day238//map_all.npz
+[MAIN_MAPCOMBINER]:  216 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day286/ 216 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day286//map_all.npz
+[MAIN_MAPCOMBINER]:  217 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day272/ 217 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day272//map_all.npz
+[MAIN_MAPCOMBINER]:  218 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day91/ 218 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day91//map_all.npz
+[MAIN_MAPCOMBINER]:  219 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day355/ 219 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day355//map_all.npz
+[MAIN_MAPCOMBINER]:  220 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day275/ 220 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day275//map_all.npz
+[MAIN_MAPCOMBINER]:  221 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day313/ 221 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day313//map_all.npz
+[MAIN_MAPCOMBINER]:  222 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day278/ 222 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day278//map_all.npz
+[MAIN_MAPCOMBINER]:  223 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day73/ 223 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day73//map_all.npz
+[MAIN_MAPCOMBINER]:  224 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day103/ 224 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day103//map_all.npz
+[MAIN_MAPCOMBINER]:  225 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day23/ 225 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day23//map_all.npz
+[MAIN_MAPCOMBINER]:  226 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day148/ 226 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day148//map_all.npz
+[MAIN_MAPCOMBINER]:  227 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day5/ 227 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day5//map_all.npz
+[MAIN_MAPCOMBINER]:  228 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day133/ 228 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day133//map_all.npz
+[MAIN_MAPCOMBINER]:  229 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day76/ 229 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day76//map_all.npz
+[MAIN_MAPCOMBINER]:  230 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day329/ 230 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day329//map_all.npz
+[MAIN_MAPCOMBINER]:  231 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day364/ 231 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day364//map_all.npz
+[MAIN_MAPCOMBINER]:  232 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day45/ 232 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day45//map_all.npz
+[MAIN_MAPCOMBINER]:  233 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day178/ 233 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day178//map_all.npz
+[MAIN_MAPCOMBINER]:  234 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day163/ 234 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day163//map_all.npz
+[MAIN_MAPCOMBINER]:  235 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day81/ 235 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day81//map_all.npz
+[MAIN_MAPCOMBINER]:  236 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day79/ 236 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day79//map_all.npz
+[MAIN_MAPCOMBINER]:  237 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day27/ 237 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day27//map_all.npz
+[MAIN_MAPCOMBINER]:  238 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day338/ 238 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day338//map_all.npz
+[MAIN_MAPCOMBINER]:  239 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day315/ 239 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day315//map_all.npz
+[MAIN_MAPCOMBINER]:  240 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day350/ 240 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day350//map_all.npz
+[MAIN_MAPCOMBINER]:  241 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day6/ 241 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day6//map_all.npz
+[MAIN_MAPCOMBINER]:  242 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day230/ 242 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day230//map_all.npz
+[MAIN_MAPCOMBINER]:  243 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day90/ 243 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day90//map_all.npz
+[MAIN_MAPCOMBINER]:  244 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day71/ 244 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day71//map_all.npz
+[MAIN_MAPCOMBINER]:  245 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day233/ 245 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day233//map_all.npz
+[MAIN_MAPCOMBINER]:  246 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day105/ 246 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day105//map_all.npz
+[MAIN_MAPCOMBINER]:  247 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day186/ 247 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day186//map_all.npz
+[MAIN_MAPCOMBINER]:  248 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day171/ 248 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day171//map_all.npz
+[MAIN_MAPCOMBINER]:  249 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day135/ 249 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day135//map_all.npz
+[MAIN_MAPCOMBINER]:  250 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day74/ 250 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day74//map_all.npz
+[MAIN_MAPCOMBINER]:  251 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day120/ 251 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day120//map_all.npz
+[MAIN_MAPCOMBINER]:  252 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day236/ 252 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day236//map_all.npz
+[MAIN_MAPCOMBINER]:  253 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day270/ 253 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day270//map_all.npz
+[MAIN_MAPCOMBINER]:  254 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day165/ 254 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day165//map_all.npz
+[MAIN_MAPCOMBINER]:  255 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day39/ 255 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day39//map_all.npz
+[MAIN_MAPCOMBINER]:  256 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day347/ 256 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day347//map_all.npz
+[MAIN_MAPCOMBINER]:  257 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day324/ 257 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day324//map_all.npz
+[MAIN_MAPCOMBINER]:  258 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day239/ 258 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day239//map_all.npz
+[MAIN_MAPCOMBINER]:  259 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day77/ 259 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day77//map_all.npz
+[MAIN_MAPCOMBINER]:  260 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day225/ 260 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day225//map_all.npz
+[MAIN_MAPCOMBINER]:  261 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day273/ 261 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day273//map_all.npz
+[MAIN_MAPCOMBINER]:  262 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day7/ 262 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day7//map_all.npz
+[MAIN_MAPCOMBINER]:  263 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day61/ 263 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day61//map_all.npz
+[MAIN_MAPCOMBINER]:  264 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day228/ 264 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day228//map_all.npz
+[MAIN_MAPCOMBINER]:  265 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day276/ 265 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day276//map_all.npz
+[MAIN_MAPCOMBINER]:  266 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day279/ 266 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day279//map_all.npz
+[MAIN_MAPCOMBINER]:  267 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day265/ 267 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day265//map_all.npz
+[MAIN_MAPCOMBINER]:  268 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day356/ 268 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day356//map_all.npz
+[MAIN_MAPCOMBINER]:  269 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day333/ 269 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day333//map_all.npz
+[MAIN_MAPCOMBINER]:  270 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day310/ 270 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day310//map_all.npz
+[MAIN_MAPCOMBINER]:  271 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day50/ 271 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day50//map_all.npz
+[MAIN_MAPCOMBINER]:  272 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day158/ 272 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day158//map_all.npz
+[MAIN_MAPCOMBINER]:  273 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day143/ 273 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day143//map_all.npz
+[MAIN_MAPCOMBINER]:  274 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day268/ 274 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day268//map_all.npz
+[MAIN_MAPCOMBINER]:  275 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day107/ 275 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day107//map_all.npz
+[MAIN_MAPCOMBINER]:  276 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day188/ 276 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day188//map_all.npz
+[MAIN_MAPCOMBINER]:  277 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day96/ 277 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day96//map_all.npz
+[MAIN_MAPCOMBINER]:  278 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day173/ 278 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day173//map_all.npz
+[MAIN_MAPCOMBINER]:  279 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day22/ 279 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day22//map_all.npz
+[MAIN_MAPCOMBINER]:  280 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day137/ 280 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day137//map_all.npz
+[MAIN_MAPCOMBINER]:  281 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day8/ 281 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day8//map_all.npz
+[MAIN_MAPCOMBINER]:  282 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day51/ 282 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day51//map_all.npz
+[MAIN_MAPCOMBINER]:  283 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day35/ 283 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day35//map_all.npz
+[MAIN_MAPCOMBINER]:  284 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day307/ 284 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day307//map_all.npz
+[MAIN_MAPCOMBINER]:  285 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day342/ 285 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day342//map_all.npz
+[MAIN_MAPCOMBINER]:  286 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day52/ 286 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day52//map_all.npz
+[MAIN_MAPCOMBINER]:  287 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day26/ 287 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day26//map_all.npz
+[MAIN_MAPCOMBINER]:  288 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day67/ 288 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day67//map_all.npz
+[MAIN_MAPCOMBINER]:  289 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day231/ 289 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day231//map_all.npz
+[MAIN_MAPCOMBINER]:  290 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day1/ 290 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day1//map_all.npz
+[MAIN_MAPCOMBINER]:  291 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day53/ 291 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day53//map_all.npz
+[MAIN_MAPCOMBINER]:  292 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day115/ 292 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day115//map_all.npz
+[MAIN_MAPCOMBINER]:  293 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day84/ 293 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day84//map_all.npz
+[MAIN_MAPCOMBINER]:  294 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day234/ 294 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day234//map_all.npz
+[MAIN_MAPCOMBINER]:  295 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day100/ 295 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day100//map_all.npz
+[MAIN_MAPCOMBINER]:  296 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day41/ 296 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day41//map_all.npz
+[MAIN_MAPCOMBINER]:  297 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day220/ 297 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day220//map_all.npz
+[MAIN_MAPCOMBINER]:  298 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day82/ 298 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day82//map_all.npz
+[MAIN_MAPCOMBINER]:  299 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day181/ 299 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day181//map_all.npz
+[MAIN_MAPCOMBINER]:  300 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day145/ 300 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day145//map_all.npz
+[MAIN_MAPCOMBINER]:  301 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day316/ 301 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day316//map_all.npz
+[MAIN_MAPCOMBINER]:  302 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day351/ 302 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day351//map_all.npz
+[MAIN_MAPCOMBINER]:  303 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day130/ 303 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day130//map_all.npz
+[MAIN_MAPCOMBINER]:  304 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day109/ 304 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day109//map_all.npz
+[MAIN_MAPCOMBINER]:  305 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day10/ 305 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day10//map_all.npz
+[MAIN_MAPCOMBINER]:  306 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day223/ 306 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day223//map_all.npz
+[MAIN_MAPCOMBINER]:  307 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day175/ 307 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day175//map_all.npz
+[MAIN_MAPCOMBINER]:  308 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day271/ 308 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day271//map_all.npz
+[MAIN_MAPCOMBINER]:  309 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day160/ 309 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day160//map_all.npz
+[MAIN_MAPCOMBINER]:  310 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day226/ 310 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day226//map_all.npz
+[MAIN_MAPCOMBINER]:  311 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day274/ 311 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day274//map_all.npz
+[MAIN_MAPCOMBINER]:  312 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day95/ 312 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day95//map_all.npz
+[MAIN_MAPCOMBINER]:  313 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day260/ 313 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day260//map_all.npz
+[MAIN_MAPCOMBINER]:  314 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day2/ 314 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day2//map_all.npz
+[MAIN_MAPCOMBINER]:  315 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day229/ 315 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day229//map_all.npz
+[MAIN_MAPCOMBINER]:  316 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day263/ 316 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day263//map_all.npz
+[MAIN_MAPCOMBINER]:  317 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day325/ 317 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day325//map_all.npz
+[MAIN_MAPCOMBINER]:  318 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day360/ 318 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day360//map_all.npz
+[MAIN_MAPCOMBINER]:  319 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day31/ 319 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day31//map_all.npz
+[MAIN_MAPCOMBINER]:  320 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day302/ 320 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day302//map_all.npz
+[MAIN_MAPCOMBINER]:  321 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day218/ 321 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day218//map_all.npz
+[MAIN_MAPCOMBINER]:  322 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day266/ 322 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day266//map_all.npz
+[MAIN_MAPCOMBINER]:  323 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day117/ 323 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day117//map_all.npz
+[MAIN_MAPCOMBINER]:  324 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day269/ 324 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day269//map_all.npz
+[MAIN_MAPCOMBINER]:  325 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day102/ 325 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day102//map_all.npz
+[MAIN_MAPCOMBINER]:  326 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day198/ 326 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day198//map_all.npz
+[MAIN_MAPCOMBINER]:  327 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day183/ 327 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day183//map_all.npz
+[MAIN_MAPCOMBINER]:  328 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day147/ 328 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day147//map_all.npz
+[MAIN_MAPCOMBINER]:  329 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day132/ 329 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day132//map_all.npz
+[MAIN_MAPCOMBINER]:  330 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day334/ 330 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day334//map_all.npz
+[MAIN_MAPCOMBINER]:  331 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day258/ 331 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day258//map_all.npz
+[MAIN_MAPCOMBINER]:  332 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day177/ 332 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day177//map_all.npz
+[MAIN_MAPCOMBINER]:  333 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day311/ 333 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day311//map_all.npz
+[MAIN_MAPCOMBINER]:  334 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day3/ 334 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day3//map_all.npz
+[MAIN_MAPCOMBINER]:  335 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day69/ 335 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day69//map_all.npz
+[MAIN_MAPCOMBINER]:  336 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day21/ 336 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day21//map_all.npz
+[MAIN_MAPCOMBINER]:  337 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day46/ 337 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day46//map_all.npz
+[MAIN_MAPCOMBINER]:  338 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day37/ 338 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day37//map_all.npz
+[MAIN_MAPCOMBINER]:  339 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day327/ 339 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day327//map_all.npz
+[MAIN_MAPCOMBINER]:  340 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day362/ 340 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day362//map_all.npz
+[MAIN_MAPCOMBINER]:  341 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day94/ 341 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day94//map_all.npz
+[MAIN_MAPCOMBINER]:  342 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day25/ 342 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day25//map_all.npz
+[MAIN_MAPCOMBINER]:  343 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day320/ 343 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day320//map_all.npz
+[MAIN_MAPCOMBINER]:  344 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day110/ 344 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day110//map_all.npz
+[MAIN_MAPCOMBINER]:  345 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day221/ 345 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day221//map_all.npz
+[MAIN_MAPCOMBINER]:  346 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day155/ 346 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day155//map_all.npz
+[MAIN_MAPCOMBINER]:  347 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day4/ 347 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day4//map_all.npz
+[MAIN_MAPCOMBINER]:  348 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day140/ 348 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day140//map_all.npz
+[MAIN_MAPCOMBINER]:  349 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day119/ 349 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day119//map_all.npz
+[MAIN_MAPCOMBINER]:  350 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day11/ 350 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day11//map_all.npz
+[MAIN_MAPCOMBINER]:  351 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day104/ 351 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day104//map_all.npz
+[MAIN_MAPCOMBINER]:  352 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day185/ 352 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day185//map_all.npz
+[MAIN_MAPCOMBINER]:  353 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day224/ 353 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day224//map_all.npz
+[MAIN_MAPCOMBINER]:  354 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day170/ 354 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day170//map_all.npz
+[MAIN_MAPCOMBINER]:  355 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day149/ 355 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day149//map_all.npz
+[MAIN_MAPCOMBINER]:  356 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day14/ 356 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day14//map_all.npz
+[MAIN_MAPCOMBINER]:  357 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day29/home/cmb/tmatsumu/LB_SYSPL/LB_SYSPL_v4.3/Simulator//src/run_coaddmaps.py:105: RuntimeWarning: invalid value encountered in divide
+  mapT = 2.*mapTn_s/mapTd_s
+/home/cmb/tmatsumu/LB_SYSPL/LB_SYSPL_v4.3/Simulator//src/run_coaddmaps.py:116: RuntimeWarning: divide by zero encountered in divide
+  mapQ = 2./(mapAA_s*mapBB_s-mapAB_s**2) * (mapBB_s*mapAd_s - mapAB_s*mapBd_s)
+/home/cmb/tmatsumu/LB_SYSPL/LB_SYSPL_v4.3/Simulator//src/run_coaddmaps.py:116: RuntimeWarning: invalid value encountered in multiply
+  mapQ = 2./(mapAA_s*mapBB_s-mapAB_s**2) * (mapBB_s*mapAd_s - mapAB_s*mapBd_s)
+/home/cmb/tmatsumu/LB_SYSPL/LB_SYSPL_v4.3/Simulator//src/run_coaddmaps.py:117: RuntimeWarning: divide by zero encountered in divide
+  mapU = 2./(mapAA_s*mapBB_s-mapAB_s**2) * (-mapAB_s*mapAd_s + mapAA_s*mapBd_s)
+/home/cmb/tmatsumu/LB_SYSPL/LB_SYSPL_v4.3/Simulator//src/run_coaddmaps.py:117: RuntimeWarning: invalid value encountered in multiply
+  mapU = 2./(mapAA_s*mapBB_s-mapAB_s**2) * (-mapAB_s*mapAd_s + mapAA_s*mapBd_s)
+/group/cmb/litebird/common_tools/opt/lib/python2.7/site-packages/healpy-1.9.1-py2.7-linux-x86_64.egg/healpy/fitsfunc.py:211: PyfitsDeprecationWarning: The new_table function is deprecated as of version 3.3 and may be removed in a future version.
+
+        Use :meth:`BinTableHDU.from_columns` for new BINARY tables or :meth:`TableHDU.from_columns` for new ASCII tables instead.
+  tbhdu = pf.new_table(cols)
+/group/cmb/litebird/common_tools/opt/lib/python2.7/site-packages/pyfits-3.3-py2.7-linux-x86_64.egg/pyfits/header.py:1108: PyfitsDeprecationWarning: The use of header.update() to add new keywords to a header is deprecated.  Instead, use either header.set() or simply `header[keyword] = value` or `header[keyword] = (value, comment)`.  header.set() is only necessary to use if you also want to use the before/after keyword arguments.
+  "keyword arguments.", PyfitsDeprecationWarning)
+/home/cmb/tmatsumu/LB_SYSPL/LB_SYSPL_v4.3/Simulator//src/run_coaddmaps.py:327: RuntimeWarning: invalid value encountered in divide
+  h.mollview(mapA_s/np.float_(mapH_s), title='mapA_s/H',max=max(mapA_s/np.float_(mapH_s)),min=min(mapA_s/np.float_(mapH_s)))
+/home/cmb/tmatsumu/LB_SYSPL/LB_SYSPL_v4.3/Simulator//src/run_coaddmaps.py:334: RuntimeWarning: invalid value encountered in divide
+  h.mollview(mapB_s/np.float_(mapH_s), title='mapB_s/H',max=max(mapB_s/np.float_(mapH_s)),min=min(mapB_s/np.float_(mapH_s)))
+/home/cmb/tmatsumu/LB_SYSPL/LB_SYSPL_v4.3/Simulator//src/run_coaddmaps.py:341: RuntimeWarning: invalid value encountered in divide
+  h.mollview(mapAA_s/np.float_(mapH_s), title='mapAA_s/H',max=max(mapAA_s/np.float_(mapH_s)),min=min(mapAA_s/np.float_(mapH_s)))
+/home/cmb/tmatsumu/LB_SYSPL/LB_SYSPL_v4.3/Simulator//src/run_coaddmaps.py:348: RuntimeWarning: invalid value encountered in divide
+  h.mollview(mapBB_s/np.float_(mapH_s), title='mapBB_s/H',max=max(mapBB_s/np.float_(mapH_s)),min=min(mapBB_s/np.float_(mapH_s)))
+/home/cmb/tmatsumu/LB_SYSPL/LB_SYSPL_v4.3/Simulator//src/run_coaddmaps.py:355: RuntimeWarning: invalid value encountered in divide
+  h.mollview(mapAB_s/np.float_(mapH_s), title='mapAB_s/H',max=max(mapAB_s/np.float_(mapH_s)),min=min(mapAB_s/np.float_(mapH_s)))
+/group/cmb/litebird/common_tools/opt/lib/python2.7/site-packages/matplotlib-1.5.3-py2.7-linux-x86_64.egg/matplotlib/pyplot.py:524: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  max_open_warning, RuntimeWarning)
+/ 357 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day29//map_all.npz
+[MAIN_MAPCOMBINER]:  358 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day359/ 358 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day359//map_all.npz
+[MAIN_MAPCOMBINER]:  359 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day336/ 359 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day336//map_all.npz
+[MAIN_MAPCOMBINER]:  360 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day227/ 360 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day227//map_all.npz
+[MAIN_MAPCOMBINER]:  361 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day213/ 361 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day213//map_all.npz
+[MAIN_MAPCOMBINER]:  362 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day261/ 362 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day261//map_all.npz
+[MAIN_MAPCOMBINER]:  363 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day60/ 363 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day60//map_all.npz
+[MAIN_MAPCOMBINER]:  364 /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day216/ 364 / 365
+/group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/day216//map_all.npz
+mapT ,n,d, nd [-43.23164617 -18.37016831 -54.97294266 ...,   0.           0.           0.        ] [ 7.  9.  4. ...,  0.  0.  0.] [-12.35189891  -4.08225962 -27.48647133 ...,          nan          nan
+          nan]
+3145728 60
+POLARIZATION BASED MASK

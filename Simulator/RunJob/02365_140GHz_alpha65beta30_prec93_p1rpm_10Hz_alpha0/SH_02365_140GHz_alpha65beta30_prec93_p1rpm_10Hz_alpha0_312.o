@@ -1,0 +1,69 @@
+Sender: LSF System <lsfadmin@cb051>
+Subject: Job 22538892: </home/cmb/tmatsumu/LB_SYSPL/LB_SYSPL_v4.3/Simulator//RunJob/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/SH_02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0_312.sh> in cluster <centralcluster> Done
+
+Job </home/cmb/tmatsumu/LB_SYSPL/LB_SYSPL_v4.3/Simulator//RunJob/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/SH_02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0_312.sh> was submitted from host <cw08> by user <tmatsumu> in cluster <centralcluster>.
+Job was executed on host(s) <cb051>, in queue <s>, as user <tmatsumu> in cluster <centralcluster>.
+</home/cmb/tmatsumu> was used as the home directory.
+</home/cmb/tmatsumu/LB_SYSPL/LB_SYSPL_v4.3/Simulator/gen_run> was used as the working directory.
+Started at Thu Dec 15 17:12:43 2016
+Results reported on Thu Dec 15 17:13:09 2016
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+/home/cmb/tmatsumu/LB_SYSPL/LB_SYSPL_v4.3/Simulator//RunJob/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/SH_02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0_312.sh
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   4.91 sec.
+    Max Memory :                                 943 MB
+    Average Memory :                             113.25 MB
+    Total Requested Memory :                     4000.00 MB
+    Delta Memory :                               3057.00 MB
+    Max Swap :                                   -
+    Max Processes :                              4
+    Max Threads :                                5
+    Run time :                                   26 sec.
+    Turnaround time :                            37 sec.
+
+The output (if any) follows:
+
+option_silent Y
+
+sim
+[maps_init] npix 3145728
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+[boreptg2pixptg_inC] the number of for-loop-> 864000
+
+________________________________________
+[MAIN_MAPMAKER] before signalgen...
+     module name: lib_mapmaker
+  parent process: 5322
+      process id: 5323
+        run time: 196.293579102
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] after signalgen...
+     module name: lib_mapmaker
+  parent process: 5322
+      process id: 5323
+        run time: 196.487496138
+________________________________________
+
+
+________________________________________
+[MAIN_MAPMAKER] END for a scanset...
+     module name: lib_mapmaker
+  parent process: 5322
+      process id: 5323
+        run time: 198.296542168
+________________________________________
+
+[lib_mapmaker.py] END of main_mapmaker()
+====================================================================================

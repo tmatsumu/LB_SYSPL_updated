@@ -1,0 +1,112 @@
+Sender: LSF System <lsfadmin@cb119>
+Subject: Job 22545812: <anafast -d /home/cmb/tmatsumu/LB_SYSPL/LB_SYSPL_v4.3/Simulator//RunJob/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/anafast_02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0_out.param> in cluster <centralcluster> Done
+
+Job <anafast -d /home/cmb/tmatsumu/LB_SYSPL/LB_SYSPL_v4.3/Simulator//RunJob/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/anafast_02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0_out.param> was submitted from host <cw06> by user <tmatsumu> in cluster <centralcluster>.
+Job was executed on host(s) <cb119>, in queue <s>, as user <tmatsumu> in cluster <centralcluster>.
+</home/cmb/tmatsumu> was used as the home directory.
+</home/cmb/tmatsumu/LB_SYSPL/LB_SYSPL_v4.3/Simulator/gen_run> was used as the working directory.
+Started at Thu Dec 15 17:45:22 2016
+Results reported on Thu Dec 15 17:45:27 2016
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+anafast -d /home/cmb/tmatsumu/LB_SYSPL/LB_SYSPL_v4.3/Simulator//RunJob/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/anafast_02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0_out.param
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   2.32 sec.
+    Max Memory :                                 162 MB
+    Average Memory :                             154.00 MB
+    Total Requested Memory :                     4000.00 MB
+    Delta Memory :                               3838.00 MB
+    Max Swap :                                   -
+    Max Processes :                              3
+    Max Threads :                                4
+    Run time :                                   5 sec.
+    Turnaround time :                            5 sec.
+
+The output (if any) follows:
+
+  
+                 ANAFAST 3.31
+ *** Analysis and power spectrum calculation for a Temperature/Polarisation map ***
+                 Double precision outputs
+  
+Reading run parameters from /home/cmb/tmatsumu/LB_SYSPL/LB_SYSPL_v4.3/Simulator//RunJob/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/anafast_02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0_out.param
+ parameters not defined in that file will be set to their default value
+ Parser: simul_type =            2 
+ Parser: infile = /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/coadd_map/coadd_map1/mapTQU.fits
+ Parser: infile2 = '' <default>
+WARNING: the polarisation coordinate convention (POLCCONV) can not be determined
+         COSMO will be assumed. See Healpix primer for details.
+ Parser: nlmax =         1024 
+ Parser: maskfile = '' <default>
+ Parser: theta_cut_deg =    0.0000000000000000       <default>
+One keeps  100.0 % of the original map(s)
+ Parser: regression =            0  <default>
+ Parser: plmfile = '' <default>
+ Parser: outfile = /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/coadd_map/coadd_map1/Clout_anafast.fits
+ Parser: outfile_alms = '' <default>
+ Parser: won =            0  <default>
+ Parser: iter_order =            0  <default>
+  Standard analysis
+  
+       ANAFAST> Inputting map 
+       ANAFAST> Analyse map 
+       ANAFAST> Compute power spectrum 
+       ANAFAST> outputting Power Spectrum 
+ 
+ Report Card for ANAFAST analysis run
+----------------------------------------
+ 
+    Temperature + Polarisation
+ 
+ Input map            : /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/coadd_map/coadd_map1/mapTQU.fits
+ Multipole range      :  0 <= l <=     1024
+ Number of pixels     :          3145728
+ Pixel size in arcmin :           6.8710    
+ Symmetric cut in deg :           0.0000    
+ Output power spectrum: /group/cmb/litebird/usr/tmatsumu/LB_SYSPL_v4.3//SimedMaps/RunLog/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/coadd_map/coadd_map1/Clout_anafast.fits
+ Clock and CPU time [s] :        2.43       2.28
+ 
+ ANAFAST> normal completion
+Sender: LSF System <lsfadmin@cb515>
+Subject: Job 22545816: <anafast -d /home/cmb/tmatsumu/LB_SYSPL/LB_SYSPL_v4.3/Simulator//RunJob/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/anafast_02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0_out.param> in cluster <centralcluster> Exited
+
+Job <anafast -d /home/cmb/tmatsumu/LB_SYSPL/LB_SYSPL_v4.3/Simulator//RunJob/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/anafast_02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0_out.param> was submitted from host <cw06> by user <tmatsumu> in cluster <centralcluster>.
+Job was executed on host(s) <cb515>, in queue <s>, as user <tmatsumu> in cluster <centralcluster>.
+</home/cmb/tmatsumu> was used as the home directory.
+</home/cmb/tmatsumu/LB_SYSPL/LB_SYSPL_v4.3/Simulator/gen_run> was used as the working directory.
+Started at Thu Dec 15 17:45:24 2016
+Results reported on Thu Dec 15 17:45:27 2016
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+anafast -d /home/cmb/tmatsumu/LB_SYSPL/LB_SYSPL_v4.3/Simulator//RunJob/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/anafast_02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0_out.param
+------------------------------------------------------------
+
+Exited with exit code 139.
+
+Resource usage summary:
+
+    CPU time :                                   2.27 sec.
+    Max Memory :                                 160 MB
+    Average Memory :                             160.00 MB
+    Total Requested Memory :                     4000.00 MB
+    Delta Memory :                               3840.00 MB
+    Max Swap :                                   -
+    Max Processes :                              3
+    Max Threads :                                4
+    Run time :                                   4 sec.
+    Turnaround time :                            3 sec.
+
+The output (if any) follows:
+
+/var/tmp/1481791524.22545816: line 8:  2575 Segmentation fault      anafast -d /home/cmb/tmatsumu/LB_SYSPL/LB_SYSPL_v4.3/Simulator//RunJob/02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0/anafast_02365_140GHz_alpha65beta30_prec93_p1rpm_10Hz_alpha0_out.param
